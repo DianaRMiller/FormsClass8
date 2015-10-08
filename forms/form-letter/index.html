@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Letter to You</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="blanks">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="orderID">Order Number</label>
+                <input id="orderID" class="form-control" type="text">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input id="firstName" class="form-control" type="text" placeholder="Name">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" class="form-control" type="text" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="coffee">Type of Coffee</label>
+            <select name="coffee" id="coffee">
+              <option value="~">Select</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Peru">Peru</option>
+              <option value="Costa Rica">Costa Rica</option>
+              <option value="Guatemala">Guatemala</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="Quantity">Quantity</label>
+            <select name="Quantity" id="Quantity">
+              <option value="1">One Pound</option>
+              <option value="5">Five Pounds</option>
+              <option value="10">Ten Pounds</option>
+              <option value="15">Fifteen Pounds</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="shippingAddress">Shipping Address</label>
+            <textarea name="shippingAddress" rows="10" cols="30" id="shippingAddress">
+              "Please put your address here."
+            </textarea>
+          </div>
+          <div class="form-group">
+            <label for="phone">Your phone number, please!</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+
+          <button type="submit" class="btn">Send me the coffee, dammit!</button>
+        </form>
+      </div>
+      <div id="receipt">
+        <span class="inputEmail3">1232</span>
+        <span class="inputPassword3">123</span>
+        <span class="checkbox">1232</span>
+        <span class="orderID">1232</span>
+        <span class="firstName">12312</span>
+        <span class="lastName">132</span>
+        <span class="coffee">123212</span>
+        <span class="quantity">123122</span>
+        <span class="shippingAddress">132123</span>
+        <span class="phone">123212</span>
+
+      </div>
+    </div>
+  </body>
+</html>
